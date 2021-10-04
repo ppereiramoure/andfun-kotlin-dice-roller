@@ -15,11 +15,6 @@
   -->
 
 
-
-
-
-</androidx.constraintlayout.widget.ConstraintLayout>
-
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
 xmlns:app="http://schemas.android.com/apk/res-auto"
 xmlns:tools="http://schemas.android.com/tools"
@@ -34,6 +29,7 @@ tools:context=".MainActivity">
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:layout_gravity="center_horizontal"
+
     app:icon="@drawable/baseline_fingerprint_black_24dp"
     style="@style/Widget.Material3.Button.TextButton.Icon" />
 
@@ -43,9 +39,7 @@ tools:context=".MainActivity">
     android:layout_height="wrap_content"
     android:layout_gravity="center_horizontal"
     android:text="Roll"
-    style="@style/Widget.MaterialComponents.Button.TextButton"
-    />
-
+    style="@style/Widget.MaterialComponents.Button.TextButton"/>
 
 </LinearLayout>
     <!-- TODO (01) Remove the code above and add the LinearLayout code from the classroom -->
