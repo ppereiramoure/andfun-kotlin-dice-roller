@@ -34,14 +34,15 @@ tools:context=".MainActivity">
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:layout_gravity="center_horizontal"
-    app:srcCompat="@drawable/empty_dice" />
+    app:icon="@drawable/baseline_fingerprint_black_24dp"
+    style="@style/Widget.Material3.Button.TextButton.Icon" />
 
 <Button
     android:id="@+id/roll_button"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:layout_gravity="center_horizontal"
-    android:text="@string/roll"
+    android:text="Roll"
     style="@style/Widget.MaterialComponents.Button.TextButton"
     />
 
