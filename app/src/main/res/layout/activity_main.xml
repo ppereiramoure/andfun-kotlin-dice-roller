@@ -30,6 +30,8 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
 
     <!-- TODO (01) Remove the code above and add the LinearLayout code from the classroom -->
