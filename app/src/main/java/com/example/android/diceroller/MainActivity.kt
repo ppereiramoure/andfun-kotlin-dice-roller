@@ -41,6 +41,7 @@ class MainActivity : AppCompatActivity() {
     private fun rollDice() {
         val randomInt = (0..6).random()
         val drawableResource = when (randomInt) {
+            "Cargar imagen"
             1 -> R.drawable.dice_1
             2 -> R.drawable.dice_2
             3 -> R.drawable.dice_3
